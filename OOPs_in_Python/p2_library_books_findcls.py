@@ -19,4 +19,8 @@ class Library:
         return (f"Your choosen books name is {self.name} and price is {self.price}tk.") 
     def add_books(self,new_book):
         self.new_book = new_book
-    def get_no_of_books(self,)           
+    def get_no_of_books(self):
+        self.no_of_books = no_of_books
+
+book1 = Library('Python3', 330)
+print(book1.books_info())
